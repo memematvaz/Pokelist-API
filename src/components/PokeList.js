@@ -3,7 +3,7 @@ import Pokemon from './Pokemon';
 
 const PokeList = (props) => {
     return(
-        <ul>
+        <ul className="container-pokemons">
            {props.dataList.map((pokemonObject, index) =>
            <Pokemon key={index}
                     image={pokemonObject.url}
