@@ -2,9 +2,9 @@ import React from 'react';
 
 const Pokemon = (props) => {
     return(
-        <li className="pokemon">
+        <div id={props.key}>
             <div className="pokemon-img">
-                <img src={props.image}></img>
+                <img src={props.image} alt={props.name}></img>
             </div>
             <div className="pokemon-info">
                 <h1>{props.name}</h1>
@@ -20,7 +20,7 @@ const Pokemon = (props) => {
             
           
 
-        </li>
+        </div>
 
     );
 }

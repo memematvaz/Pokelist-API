@@ -1,0 +1,31 @@
+.background {
+    background: linear-gradient(45deg, #75D1A0 10%, #B3E4E6 90%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    .title {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 80px;
+        font-weight: 400;
+        padding: 50px;
+
+        .L {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-style: italic;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .background {
+    .title {
+        font-size: 180px;
+    }
+
+}
+}
