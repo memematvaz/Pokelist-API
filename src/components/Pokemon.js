@@ -1,6 +1,10 @@
 import React from 'react';
 
 const Pokemon = (props) => {
+    function handleButton() {
+        props.toggleFavorite(props.id)
+      }
+
     return(
         <div id={props.key}>
             <div className="pokemon-img">
@@ -17,9 +21,7 @@ const Pokemon = (props) => {
                 </ul>
                 
             </div>
-            
-          
-
+         
         </div>
 
     );
