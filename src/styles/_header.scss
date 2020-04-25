@@ -1,6 +1,6 @@
 .background {
     background: linear-gradient(45deg, #75D1A0 10%, #B3E4E6 90%);
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -23,9 +23,11 @@
 
 @media (min-width: 768px) {
     .background {
-    .title {
-        font-size: 180px;
-    }
+        height: 100vh;
 
-}
+        .title {
+            font-size: 180px;
+        }
+
+    }
 }

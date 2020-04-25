@@ -2,12 +2,6 @@ import React from 'react';
 import apiPokemon from '../data.json';
 import PokeList from './PokeList.js';
 
-
-console.log(apiPokemon)
-
-
-
-
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -24,7 +18,6 @@ class App extends React.Component {
       );
   }
 }
-
 
 export default App;
 
